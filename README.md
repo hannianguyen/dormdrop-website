@@ -38,7 +38,6 @@ DormDrop/\
 ├── index.html\
 ├── styles.css\
 ├── dormdrop logo.png\
-├── hero-big-image.jpg\
 ├── README.md
 
 ## How to Open
