@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- character encoding for proper text display -->
+    <meta charset="UTF-8">
+    <!-- description that summarizes the site content -->
+    <meta name="description" content="DormDrop delivers monthly essential boxes to college students—snacks, toiletries, school supplies, and more.">
+    <!-- keywords to help search engines categorize the page -->
+    <meta name="keywords" content="DormDrop, college, subscription box, dorm essentials, student services">
+
+    <!-- Author of the site -->
+    <meta name="author" content="Ha Nguyen">
+
+    <!-- Ensures mobile responsiveness and proper scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title displayed in browser tab -->
+    <title>DormDrop</title>
+    <!-- Link to external stylesheet that controls page styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- HEADER / NAVIGATION SECTION -->
+<!-- Contains logo, site title, and navigation links -->
+<header class="masthead" id="home">
+  <div class="header-container">
+
+    <!-- Logo + site title grouped together -->
+    <div class="logo-wrap">
+
+      <!-- Logo is clickable and links back to homepage -->
+      <a href="#home" class="logo-link">
+        <img src="dormdrop logo.png" width="65" height="60" alt="DormDrop Logo">
+      </a>
+
+      <!-- Brand name displayed next to logo -->
+      <h1 class="logo-text">DormDrop</h1>
+    </div>
+
+    <!-- Main navigation menu -->
+    <nav>
+      <ul class="nav-list">
+        <!-- Links to different page sections -->
+        <li><a href="#about">About</a></li>
+        <li><a href="#boxes">Boxes</a></li>
+        <li><a href="#subscribe">Subscribe</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#cart">Cart(0)</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<!-- HERO SECTION -->
+<!-- Intro section with headline, description, and main call-to-action button -->
+<section class="hero">
+    <div class="hero-content container">
+
+        <!-- Main text content of hero section -->
+        <div class="hero-text">
+            <h2>YOUR DORM.</h2>
+            <h2>FULLY STOCKED.</h2>
+
+            <!-- Brief explanation of service -->
+            <p>Snacks, toiletries, school supplies, and seasonal essentials delivered monthly, so you can focus on college, not errands.</p>
+
+            <!-- CTA button letting users to subscribe -->
+            <a href="#subscribe" class="btn pill-btn">
+              <span>START YOUR SUBSCRIPTION</span>
+              <!-- Arrow icon inside a circle -->
+              <span class="pill-icon">➜</span>
+            </a>
+        </div>
+
+        <!-- Hero image visually representing the service -->
+        <img src="DormDrop home.png" 
+             alt="DormDrop subscription box graduating with college students"
+             class="hero-img">
+    </div>
+</section>
+
+
+<!-- BOX OPTIONS SECTION -->
+<!-- Displays three different subscription box categories with hover images -->
+<section id="boxes" class="section boxes">
+    <div class="container">
+      <h2 class="section-title">Choose Your Box</h2>
+
+        <div class="box-grid">
+            <!-- Each box card represents one type of subscription box -->
+
+            <!-- SNACK BOX -->
+            <div class="box-card">
+                <!-- Wrapper that switches images on hover -->
+                <div class="box-img-wrap">
+                    <img src="snack box.png" class="box-img default-img" alt="Snack Box">
+                    <img src="snack box 2.png" class="box-img hover-img" alt="Snack Box alt">
+                </div>
+                <!-- Label displayed under the image -->
+                <div class="box-label">SNACK BOX</div>
+                <!-- Description of items inside -->
+                <p class="box-desc">Chips, granola bars, drinks, sweet treats, and more.</p>
+            </div>
+
+            <!-- STUDY BOX -->
+            <div class="box-card">
+                <div class="box-img-wrap">
+                    <img src="study box.png" class="box-img default-img" alt="Study Survival Box">
+                    <img src="study box 2.png" class="box-img hover-img" alt="Study Survival alt">
+                </div>
+                <div class="box-label">STUDY SURVIVAL</div>
+                <p class="box-desc">Pens, notebooks, flashcards, sticky notes, highlighters, and more.</p>
+            </div>
+
+            <!-- TOILETRY BOX -->
+            <div class="box-card">
+                <div class="box-img-wrap">
+                    <img src="toiletry box.png" class="box-img default-img" alt="Toiletry Box">
+                    <img src="toiletry box 2.png" class="box-img hover-img" alt="Toiletry Box alt">
+                </div>
+                <div class="box-label">TOILETRY BOX</div>
+                <p class="box-desc">Shampoo, toothpaste, razors, laundry pods, and more.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- BOX COMPARISON TABLE SECTION -->
+<!-- A table comparing all available subscription box types -->
+<section class="box-table-section" id="boxes">
+    <h2 class="section-title">Box Comparison</h2>
+
+    <!-- Table providing users with detailed side-by-side comparison -->
+    <table class="comparison-table">
+        <tr>
+            <!-- Table headers describing each column -->
+            <th>Box Type</th>
+            <th>Price</th>
+            <th>What’s Inside</th>
+            <th>Who It’s For</th>
+        </tr>
+
+        <!-- Individual box rows listing contents and target users -->
+        <tr>
+            <td>Essentials Monthly Drop</td>
+            <td>Starting at $29/mo</td>
+            <td>Toiletries, snacks, basics + optional add-ons</td>
+            <td>First-year students</td>
+        </tr>
+
+        <tr>
+            <td>Snack Box</td>
+            <td>Starting at $29/mo</td>
+            <td>Healthy snacks, energy bites, chips, bars, late-night study treats, drinks of your choice + optional add-ons.</td>
+            <td>Students who want convenient, affordable snack refills</td>
+        </tr>
+
+        <tr>
+            <td>Study Survival Box</td>
+            <td>Starting at $29/mo</td>
+            <td>School supplies, midterms/finals tools, study snacks, energy boosters, and wellness extras during high-stress months + optional add-ons.</td>
+            <td>Students with heavy workloads, athletes balancing schedules, or anyone who pulls late-night study sessions.</td>
+        </tr>
+
+        <tr>
+            <td>Toiletry Box</td>
+            <td>Starting at $29/mo</td>
+            <td>Shampoo, conditioner, body wash, toothpaste, toothbrush, moisturizer, razors, laundry pods + optional add-ons.</td>
+            <td>Students who want reliable monthly refills of everyday personal care essentials.</td>
+        </tr>
+
+        <tr>
+            <td>Seasonal Box</td>
+            <td>$35/mo</td>
+            <td>Holiday + themed items</td>
+            <td>Students who love surprises</td>
+        </tr>
+
+        <tr>
+            <td>Custom Build-Your-Own Drop</td>
+            <td>Starting at $25/mo</td>
+            <td>Fully customized items-students choose from hygiene, toiletries, tech accessories, snacks, dorm supplies.</td>
+            <td>Students who want full control or have specific needs (allergies, preferences, routines).</td>
+        </tr>
+    </table>
+</section>
+
+
+<!-- ABOUT SECTION -->
+<!-- Describes the company mission and provides background details -->
+<section id="about" class="section about">
+    <div class="container about-grid">
+
+        <!-- Text explaining what DormDrop does -->
+        <div class="about-text">
+          <h2 class="section-title">What is DormDrop?</h2>
+            <p>DormDrop is a monthly subscription box designed for busy college students. We deliver everything you need straight to your dorm room—no car trips, no stress, no empty snack drawer.</p>
+
+            <!-- Highlighted statistic for credibility -->
+            <p>College students spend over <strong>$40 billion</strong> each year on dorm essentials. DormDrop saves time and money by offering reliable, affordable, customizable deliveries.</p>
+        </div>
+
+        <!-- Supporting image with alt text -->
+        <div class="about-img-wrap">
+            <img src="umass delivery.jpg" alt="DormDrop team delivering boxes around UMass campus">
+        </div>
+    </div>
+</section>
+
+
+<!-- STATS SECTION -->
+<!-- Displays animated background text, cards showing growth -->
+<section id="stats" class="section stats">
+
+<!-- Large scrolling background statistic lines -->
+<div class="stats-bg-text line1">We grew to 612 monthly subscribers across three colleges</div>
+<div class="stats-bg-text line2">78% of our customers stayed with us for the full semester</div>
+<div class="stats-bg-text line3">91% of students said DormDrop made their daily college life easier</div>
+
+    <div class="container">
+      <h2 class="section-title">Our First-Year Results</h2>
+
+        <!-- Grid layout for statistics -->
+        <div class="stats-grid">
+
+            <!-- Each card highlights a key performance metric -->
+            <div class="stat-card">
+                <h3>612</h3>
+                <p>Monthly Subscribers</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>78%</h3>
+                <p>Retention Rate</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>91%</h3>
+                <p>Customer Satisfaction</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>92%</h3>
+                <p>On-Time Delivery</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>18%</h3>
+                <p>Cost Reduction</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- SUBSCRIPTION CTA SECTION -->
+<!-- Encourages users to take action and subscribe -->
+<section id="subscribe" class="section cta">
+    <div class="container cta-inner">
+      <h2 class="section-title">Ready to Make Dorm Life Easier?</h2>
+
+        <!-- Supportive sentence -->
+        <p>Join hundreds of students already using DormDrop every month.</p>
+
+        <!-- Subscription button styled similarly to hero's button -->
+        <a href="#subscribe" class="btn pill-btn subscribe-pill">Subscribe Now</a>
+    </div>
+</section>
+
+
+<!-- FOOTER SECTION -->
+<!-- Provides contact info and social media links -->
+<footer class="footer" id="contact">
+    <div class="container">
+
+        <!-- email contact link -->
+        <p>Contact us: <a href="mailto:support@dormdrop.com">support@dormdrop.com</a></p>
+
+        <!-- social media navigation -->
+        <p>Follow us:
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+            <a href="https://www.tiktok.com/en/" target="_blank">TikTok</a> |
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        </p>
+
+        <!-- Copyright information -->
+        <p>&copy; 2025 DormDrop. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
