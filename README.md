@@ -42,9 +42,7 @@ DormDrop/\
 
 ## How to Open
 
-1.  Download the project folder.\
-2.  Open `index.html` in your browser.\
-3.  Ensure CSS and images stay in the same folder.
+Access website at https://hannianguyen.github.io/dormdrop-website/
 
 ## Technologies Used
 
