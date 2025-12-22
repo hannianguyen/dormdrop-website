@@ -1,4 +1,4 @@
-# DormDrop Website -- README
+# DormDrop Website
 
 ## Overview
 
