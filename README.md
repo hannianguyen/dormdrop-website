@@ -5,8 +5,7 @@
 DormDrop is a subscription box service designed for college students who
 need monthly refills of snacks, toiletries, school supplies, and
 seasonal essentials. This website serves as a promotional and
-informational page for the service and demonstrates HTML and CSS skills
-for a class project.
+informational page for the service.
 
 ## Features
 
@@ -52,4 +51,3 @@ Access website at https://hannianguyen.github.io/dormdrop-website/
 
 ## Author
 - Ha Nguyen
-- Created for a class assignment demonstrating HTML/CSS layout, design, and accessibility.
