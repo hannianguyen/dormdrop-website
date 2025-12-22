@@ -35,10 +35,10 @@ for a class project.
 ## File Structure
 
 DormDrop/\
-├── index.html\
-├── styles.css\
-├── dormdrop logo.png\
-├── README.md
+- index.html\
+- styles.css\
+- dormdrop logo.png\
+- README.md
 
 ## How to Open
 
