@@ -36,7 +36,7 @@ informational page for the service.
 DormDrop
 - index.html
 - styles.css
-- dormdrop logo.png
+- dormdrop logo.png and other pictures
 - README.md
 
 ## How to Open
