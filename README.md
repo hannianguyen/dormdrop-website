@@ -51,5 +51,5 @@ Access website at https://hannianguyen.github.io/dormdrop-website/
 -   Google Fonts
 
 ## Author
-
+Ha Nguyen
 Created for a class assignment demonstrating HTML/CSS layout, design, and accessibility.
